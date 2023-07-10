@@ -12,6 +12,12 @@ body {
     font-family: 'Bacasime Antique', serif;
 }
 
+h1 {
+    color: rgb(250, 250, 250);
+}
+
+
+
 /* from Bulma */
 .icon {
     align-items: center;
