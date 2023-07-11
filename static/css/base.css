@@ -1,4 +1,5 @@
-/* font-family: 'Bacasime Antique', serif; */
+/* font-family: 'Anton', sans-serif;
+font-family: 'Lora', serif; */
 
 html {
     height: 100%;
@@ -9,11 +10,12 @@ body {
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
-    font-family: 'Bacasime Antique', serif;
+    font-family: 'Lora', serif;
 }
 
 h1 {
     color: rgb(250, 250, 250);
+    font-family: 'Anton', sans-serif;
 }
 
 
