@@ -1,11 +1,10 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, redirect, reverse, get_object_or_404
 from .models import Subscription
 from django.contrib import messages
 from django.db.models import Q
 
 
 def all_subscriptions(request):
-    """ view to show all subscriptions, filtering and search results """
 
     subscriptions = Subscription.objects.all()
     query = None
@@ -37,3 +36,11 @@ def subscription_detail(request, subscription_id):
     }
 
     return render(request, 'subscriptions/subscription_detail.html', context)
+
+
+def get_nutrition(request):
+    return render(request, 'subscriptions/nutrition_plan.html')
+   
+
+def get_nutrition(request):
+    return render(request, 'subscriptions/annual_cycle_fit_plan.html')
