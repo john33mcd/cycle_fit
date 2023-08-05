@@ -47,6 +47,21 @@ h1 {
     color: white;
 }
 
+.btn-outline-black {
+    background: white;
+    color: black !important;
+    border: 1px solid black;
+}
+
+.btn-outline-black:hover,
+.btn-outline-black:active,
+.btn-outline-black:focus {
+    background: black;
+    color: white !important;
+}
+
+
+
 .shop-now-button:hover,
 .shop-now-button:active,
 .shop-now-button:focus,
@@ -65,7 +80,7 @@ h1 {
     border: 1px solid black !important;
 }
 
-.overlay{
+.overlay {
     height: 100%;
     width: 100%;
     top: 0;
@@ -75,7 +90,7 @@ h1 {
     z-index: -1;
 }
 
-a.category-badge > span.badge:hover {
+a.category-badge>span.badge:hover {
     background-color: black !important;
     color: #fff !important;
 }
@@ -96,9 +111,9 @@ a.category-badge > span.badge:hover {
 
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
-  .container {
-    max-width: 80%;
-  }
+    .container {
+        max-width: 80%;
+    }
 }
 
 /* fixed top navbar only on medium and up */
@@ -116,12 +131,12 @@ a.category-badge > span.badge:hover {
     }
 }
 
-@media (max-width: 991px){
+@media (max-width: 991px) {
     .header-container {
         padding-top: 116px;
     }
 
-    body{
+    body {
         height: calc(100vh - 116px);
     }
 }
