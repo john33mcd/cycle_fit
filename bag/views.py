@@ -10,7 +10,7 @@ def add_to_bag(request, item_id):
     """ add item quantity to bag """
 
     quantity = int(request.POST.get('quantity'))
-    redirect_url = request.get('redirect_url')
+    redirect_url = request.POST.get('redirect_url')
     bag = request.session.get('bag', {})
 
     if item_id in list(bag.keys()):
