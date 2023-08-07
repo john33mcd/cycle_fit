@@ -7,4 +7,3 @@ urlpatterns = [
     path('annual_cycle_fit_plan/', views.get_nutrition, name='annual_cycle_fit_plan'),
     path('<subscription_id>', views.subscription_detail, name='subscription_detail'),
 ]
-
